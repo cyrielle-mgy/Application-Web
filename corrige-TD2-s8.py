@@ -199,3 +199,4 @@ conn.row_factory = sqlite3.Row
 httpd = socketserver.TCPServer(("", 8080), RequestHandler)
 httpd.serve_forever()
 
+#J'ai essayé de modifié.
